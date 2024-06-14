@@ -49,7 +49,7 @@ function App() {
   return (
     <div className="text-center m-36">
       <input className='border border-black p-2 w-80'  ref={InputValue} placeholder='Enter Domain Names'></input>
-      <button className='bg-red-600 text-white p-2 m-2 rounded-md w-20' onClick={getresults}>Submit</button>
+      <button className='bg-blue-600 text-white p-2 m-2 rounded-md w-20' onClick={getresults}>Submit</button>
       <div className='m-16'>
         {allratings.length>0 &&
         <table>
